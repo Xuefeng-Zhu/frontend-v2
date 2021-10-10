@@ -103,6 +103,18 @@
             <h4 v-text="$t('poolTransactions')" class="px-4 lg:px-0 mb-2" />
             <PoolActivitiesCard :pool="pool" :loading="loadingPool" />
           </div>
+
+          <div>
+            <iframe
+              :src="
+                `https://0006b46kv85hr352r8tb1tnbs7fvmnekmmttqvpcd1u8uqkaepp669o.siasky.net/#/${pool.id}`
+              "
+              width="100%"
+              height="500"
+              frameborder="0"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
 
