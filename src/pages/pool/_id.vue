@@ -107,7 +107,7 @@
           <div>
             <iframe
               :src="
-                `https://0006b46kv85hr352r8tb1tnbs7fvmnekmmttqvpcd1u8uqkaepp669o.siasky.net/#/${pool.id}`
+                `https://0000inn3pkuk67ud88lavlo4nr95jk6ssci9g1mi36p1c4vdn8aud58.siasky.net/#/${pool.id}`
               "
               width="100%"
               height="500"
